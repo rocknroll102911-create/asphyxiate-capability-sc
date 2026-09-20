@@ -1,0 +1,1 @@
+import { BuilderCore } from './core'; const builder = new BuilderCore(); try { console.log(builder.generate({ name: 'DroneSafe', industry: 'Aviation' })); } catch (e) { console.error('Bootstrap failed', e); }
